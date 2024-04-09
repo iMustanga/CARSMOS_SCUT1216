@@ -1,0 +1,39 @@
+influxdb-client
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-jaeger-thrift
+scikit-learn==1.0.2
+pytest
+absl-py
+gdown
+# Old dependencies to double check  
+cvxpy
+erdos
+# lapsolver
+motmetrics
+numpy==1.21.6 # Ignore warning, as 1.22 requires python 3.8
+# open3d
+opencv-python
+opencv-contrib-python
+pillow
+pycocotools
+pytest
+scikit-image==0.18.3
+scipy==1.7.1
+shapely==1.6.4
+# tensorflow-gpu>=2.7.1
+##### Tracking dependencies #####
+Cython
+filterpy==1.4.1
+imgaug==0.2.8
+matplotlib==3.4.3
+nonechucks==0.3.1
+nuscenes-devkit
+progress
+pyquaternion
+##### CARLA dependencies #####
+networkx==2.2
+ninja
+dora-rs
+tensorboard
+ipython
